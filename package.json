@@ -16,5 +16,9 @@
   },
   "devDependencies": {
     "prisma": "^5.0.0"
+  },
+  "scripts": {
+    "build": "prisma generate",
+    "start": "node index.js"
   }
 }
