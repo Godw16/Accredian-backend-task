@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 const prisma = new PrismaClient();
-const express = require('express');
+
 const app = express();
 
 app.use(cors());
